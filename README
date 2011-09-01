@@ -1,0 +1,21 @@
+*KanNum.bas README
+
+この README は、 utf8n でエンコードされています。
+KanNum.bas は、 Excel からエクスポートされたもので、 Shift JIS (SJIS) で、
+エンコードされています。
+
+
+**使い方
+1 プログラムのダウンロード
+1-1 KanNum.bas をダウンロードして、適当なディレクトリに格納します。
+2 Excel へのモジュール登録設定
+2-1 Excel を起動します。
+2-2 Visual Basic Editor を、開いてください。
+2-3 プロジェクトエクスプローラで、なにか適当なプロジェクト(たとえば
+     VBAProject (Book1))を選択します
+2-4 右クリック、またはVisual Basic Editor のメニューから、ファイル＞ファイ
+    ルのインポート(I)...をクリックします
+2-5 KanNum.bas を選択します
+
+これにより、選択しているプロジェクトの標準モジュールとして、 KanNum が登録
+され、シートで、 STRINGNUMBER マクロ関数が、使えるようになります。
